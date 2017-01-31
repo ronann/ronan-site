@@ -22,11 +22,7 @@
     @RenderBody()
 </div>
 </body>
-<footer class="footer">
-    <div class="container">
-        <span class="text-muted float-right">&copy; 2017</span>
-    </div>
-</footer>
+  @{ await Html.RenderPartialAsync("_FooterNavView");})
 </html>
 <script>
     $('.popup').magnificPopup({
