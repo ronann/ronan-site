@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNet.Mvc.Rendering
+@using Microsoft.AspNet.Razor.Chunks.Generators
+
+<link href="~/css/bootstrap.css" rel="stylesheet" />
+<link href="~/css/default.css" rel="stylesheet"/>
+<link href="~/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet"/>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/tether/dist/js/tether.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+<!DOCTYPE html>
+
+<html class="main-layout">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    @{ await Html.RenderPartialAsync("_HeaderNavView"); }
+</head>
+<body>
+<div class="body-render">
+    @RenderBody()
+</div>
+</body>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted float-right">&copy; 2017</span>
+    </div>
+</footer>
+</html>
+<script>
+    $('.popup').magnificPopup({
+        type: 'image'
+    })
+</script>
