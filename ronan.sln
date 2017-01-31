@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ronan", "src\TWBS\ronan.xproj", "{5B2B822D-4F6E-4DF5-963E-5A5E8A951875}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ronan", "src\ronan\ronan.xproj", "{63C420D2-53C1-44D2-A500-3F1F12A24C14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +18,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5B2B822D-4F6E-4DF5-963E-5A5E8A951875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B2B822D-4F6E-4DF5-963E-5A5E8A951875}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B2B822D-4F6E-4DF5-963E-5A5E8A951875}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B2B822D-4F6E-4DF5-963E-5A5E8A951875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5B2B822D-4F6E-4DF5-963E-5A5E8A951875} = {E6CC6ED0-90EF-4137-BE64-6A57BE35A006}
 	EndGlobalSection
 EndGlobal
