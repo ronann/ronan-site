@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6CC6ED0-90EF-4137-BE64-6A57BE35A006}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EFE8A5A-AFAE-49CA-B3A7-B4EDCEFEB64F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23601076-CF43-473A-999C-F753BB4C57E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B43D9117-1254-4735-A2FA-BB42A08494FE}"
 	ProjectSection(SolutionItems) = preProject
+		src\ronan\bower.json = src\ronan\bower.json
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ronan", "src\ronan\ronan.xproj", "{63C420D2-53C1-44D2-A500-3F1F12A24C14}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ronan", "src\ronan\ronan.xproj", "{3F15D095-2D08-4365-B676-3437F2B37E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,12 +19,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63C420D2-53C1-44D2-A500-3F1F12A24C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F15D095-2D08-4365-B676-3437F2B37E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F15D095-2D08-4365-B676-3437F2B37E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F15D095-2D08-4365-B676-3437F2B37E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F15D095-2D08-4365-B676-3437F2B37E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F15D095-2D08-4365-B676-3437F2B37E51} = {2EFE8A5A-AFAE-49CA-B3A7-B4EDCEFEB64F}
 	EndGlobalSection
 EndGlobal
