@@ -15,7 +15,7 @@ gulp.task('compile-bootstrap', function () {
         .pipe(gulp.dest('./wwwroot/css'));
 });
 
-gulp.task('compile-sass', function() {
+gulp.task('compile-sass', function () {
 
     gulp.src('./wwwroot/sass/default.scss')
         .pipe(gulpSass())
@@ -23,7 +23,7 @@ gulp.task('compile-sass', function() {
         .pipe(gulp.dest('./wwwroot/css'));
 });
 
-gulp.task('watch-sass', function() {
+gulp.task('watch-sass', function () {
     gulp.watch('./wwwroot/sass/*.scss', ['compile-sass']);
     gulp.watch('./wwwroot/sass/**/*.scss', ['compile-sass']);
 });
