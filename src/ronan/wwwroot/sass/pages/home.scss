@@ -1,9 +1,15 @@
 ﻿@import "../lib/bootstrap/scss/variables";
-
+@import "../global.scss"; 
 .home {
     padding-top: 3%;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: $black;
+
+    .intro{
+        background-color: $black;
+        color:white;
+        padding: 1%;
+    }
 
     .img-container {
         float: right;
@@ -33,7 +39,7 @@
             color: white;
             text-shadow: 0 0 15px black;
             font-size: 42px;
-            z-index:1;
+            z-index:1; 
         }
 
         .target {
