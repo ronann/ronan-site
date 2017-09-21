@@ -1,17 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EFE8A5A-AFAE-49CA-B3A7-B4EDCEFEB64F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B43D9117-1254-4735-A2FA-BB42A08494FE}"
 	ProjectSection(SolutionItems) = preProject
 		src\ronan\bower.json = src\ronan\bower.json
-		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ronan", "src\ronan\ronan.xproj", "{3F15D095-2D08-4365-B676-3437F2B37E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ronan", "src\ronan\ronan.csproj", "{3F15D095-2D08-4365-B676-3437F2B37E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3F15D095-2D08-4365-B676-3437F2B37E51} = {2EFE8A5A-AFAE-49CA-B3A7-B4EDCEFEB64F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6114AEB-F874-4F02-BB00-FC095E05F371}
 	EndGlobalSection
 EndGlobal
