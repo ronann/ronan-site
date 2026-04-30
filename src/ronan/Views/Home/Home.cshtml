@@ -1,55 +1,191 @@
-﻿@{ Layout = "_MainLayout"; }
+<!-- HERO -->
+<section id="hero" class="hero-section">
+    <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Nick Ronan</h1>
+        <h2 class="hero-title">Software Developer</h2>
+        <p class="hero-tagline">Building software that stays out of its own way.</p>
+        <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+    </div>
+    <div class="hero-scroll" role="button" aria-label="Scroll to about section">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
 
-@{ await Html.RenderPartialAsync("_HeroView");}
-
-<div class="home container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="intro">
-                <div class="img-container">
-                    <img class="img-fluid" src="~/assets/computer-1869236_640.jpg" />
+<!-- ABOUT -->
+<section id="about" class="section section-light">
+    <div class="container">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I'm passionate about technology and creating software solutions that make life easier for everyone.
+                    The most important thing to consider when designing software is usability — software should be a
+                    tool for, not a barrier against, completing work.
+                </p>
+                <p>
+                    I find the most interesting intersection of software and individual expression in web development,
+                    where technology, design, and creativity combine to build something meaningful.
+                </p>
+                <div class="about-tags">
+                    <span>.NET / C#</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                    <span>Web Development</span>
+                    <span>UX-Focused Design</span>
                 </div>
-
-                <h3>
-                    Welcome
-                </h3>
-                <p>
-                    I am passionate about technology and creating software solutions that make life easier for everyone. It is important to me to make software that makes tasks eaiser to complete and that stays out of its own way. I strongly belive that
-                    the single most important thing to consider when designing software is the usability of design. Software that doesn't work well for the intened audiance does not work at all. Software should be a tool for, not a barrier against completing work.
-                </p>
-
-                <p>
-                    I beleive that the most interesting intersection of software development/design and individual expression is found in the creation and design of websites. Web design and development is the most creative expression of the work of technology. This is the only
-                    channel of technology that shows the intricate interation of art design and a plethora of technologies being used to express self.
-                </p>
-                <p>
-                    Please look aroud the site and see of the technologies I am most passionate about and some of my most interesting project work.
-                </p>
+            </div>
+            <div class="about-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="code-filename">about.cs</span>
+                    </div>
+                    <div class="code-body">
+                        <span class="code-line"><span class="kw">var</span> developer = <span class="kw">new</span></span>
+                        <span class="code-line">{</span>
+                        <span class="code-line">&nbsp;&nbsp;<span class="prop">Name</span> = <span class="str">"Nick Ronan"</span>,</span>
+                        <span class="code-line">&nbsp;&nbsp;<span class="prop">Role</span> = <span class="str">"Software Developer"</span>,</span>
+                        <span class="code-line">&nbsp;&nbsp;<span class="prop">Focus</span> = <span class="str">"Great UX"</span>,</span>
+                        <span class="code-line">&nbsp;&nbsp;<span class="prop">Loves</span> = <span class="str">"Clean Code"</span></span>
+                        <span class="code-line">};</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <a href="/work">
-                <div class="card">
+</section>
 
-                    <img class="img-fluid" src="~/assets/pexels-photo-160107.jpeg" />
-                    <span class="title">Work</span>
-
-                    <div class="target"></div>
-                </div>
-            </a>
+<!-- SKILLS -->
+<section id="skills" class="section section-dark">
+    <div class="container">
+        <div class="section-header light">
+            <h2>Skills</h2>
+            <div class="section-line"></div>
         </div>
-        <div class="col-md-6">
-            <a href="/about">
-                <div class="card">
-
-                    <img class="img-fluid" src="~/assets/pexels-photo-241345.jpeg" />
-                    <span class="title">About</span>
-
-                    <div class="target"></div>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>C# / .NET</span>
+                    <span>90%</span>
                 </div>
-            </a>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="90"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="80"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML / CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>SQL</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="75"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>React</span>
+                    <span>65%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="65"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Azure / Cloud</span>
+                    <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="60"></div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="section section-gray">
+    <div class="container">
+        <div class="section-header">
+            <h2>My Work</h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Projects coming soon — check back later.</p>
+        </div>
+        <div class="work-grid">
+            <div class="work-card placeholder">
+                <div class="work-card-inner">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Coming Soon</h3>
+                    <p>Project details will be added here.</p>
+                </div>
+            </div>
+            <div class="work-card placeholder">
+                <div class="work-card-inner">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Coming Soon</h3>
+                    <p>Project details will be added here.</p>
+                </div>
+            </div>
+            <div class="work-card placeholder">
+                <div class="work-card-inner">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Coming Soon</h3>
+                    <p>Project details will be added here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-dark">
+    <div class="container">
+        <div class="section-header light">
+            <h2>Get In Touch</h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle light">Have a question or want to work together?</p>
+        </div>
+        <div class="contact-content">
+            <a href="mailto:nick@nronan.com" class="contact-email">
+                <i class="fas fa-envelope"></i>
+                nick@nronan.com
+            </a>
+            <div class="social-links">
+                <a href="https://github.com/ronann/" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nicholas-ronan-04b91095/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

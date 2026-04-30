@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ronan.Controllers
 {
     public class WorkController : Controller
     {
-        public ActionResult Index()
-        {
-            return View("Work");
-        }
+        public IActionResult Index() => Redirect("/#work");
     }
 }
